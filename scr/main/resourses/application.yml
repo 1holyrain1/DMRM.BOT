@@ -1,1 +1,15 @@
+server:
+  port: 8888
+  ssl:
+    enabled: false
+    key-alias: test
+    key-store: "path/to/cert.jks"
+    key-store-password: "password"
 
+application.viber-bot:
+  auth-token: "4808f5b40567d0c6-363a123094bc73b0-420aae51f7d26ba9"
+  webhook-url: ""
+  name: "IGS"
+  avatar: "http://example.com/avatar.jpg"
+
+logging.level.com.viber: DEBUG
